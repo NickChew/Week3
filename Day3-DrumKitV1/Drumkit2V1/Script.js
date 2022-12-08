@@ -17,7 +17,7 @@ document.addEventListener("keypress", function (event) {
     btnAnimation(event.key.toLowerCase());
 });
 
-//button animation
+// button animation
 
 function btnAnimation(currentKey) {
     let x = currentKey;   
