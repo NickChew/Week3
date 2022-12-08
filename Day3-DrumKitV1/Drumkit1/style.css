@@ -1,0 +1,61 @@
+html { 
+    flex-wrap: wrap; 
+    font-size: 10px;
+    background: url(https://cdn.xxl.thumbs.canstockphoto.com/drums-and-drum-set-beautiful-blue-and-red-background-with-rays-of-light-beautiful-special-effects-picture_csp91482678.jpg) center;
+    background-size: cover;
+}
+
+body,html{
+    margin: 0;
+    Padding: 0;  
+    font-family: sans-serif; 
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-content: stretch; 
+}
+
+.key{
+    display:flex;
+    flex-wrap:wrap;
+    align-content: stretch; 
+    align-items: center;
+    border: .3rem solid rgba(238, 241, 6, 0.987);   /* note rem is The root element's font-size" */
+    border-radius: 0.3rem;
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1rem .5rem;
+    transition: all .03s ease;                 /* cubic-bezier-easing-function button will ease in and out in 0.3s*/ 
+    width: auto;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    background: rgba(43, 40, 40, 0.4);
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: greenyellow;
+    box-shadow: 0 0 1rem rgba(121, 120, 13, 0.994);
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+    text-align: center;
+}
+  
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }

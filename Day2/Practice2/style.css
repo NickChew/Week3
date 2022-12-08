@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .flex-nav ul { 
+    list-style: disc;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
