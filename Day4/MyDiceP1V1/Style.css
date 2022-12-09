@@ -1,0 +1,60 @@
+.container {
+    flex-wrap: wrap;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    flex-wrap: wrap;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    background-color: #238cd3;
+    margin: 0;
+}
+
+h1 {
+    flex-wrap: wrap;
+    margin: 15px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4.5rem;
+    color: #3d53cd;
+    text-align: center;
+}
+
+p {
+    flex-wrap: wrap;
+    font-size: 2rem;
+    color: #cadc49;
+    font-family: "Indie Flower", cursive;
+}
+
+img {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 10px;
+}
+
+.button {
+    flex-wrap: wrap;
+    background: #4ecca3;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #232931;
+    text-decoration: none;
+}
